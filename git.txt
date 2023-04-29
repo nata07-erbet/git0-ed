@@ -91,6 +91,8 @@ git pull origin master
 //слияние удаленного и локального 
 git merge
  
+//объединение веток
+git merge --no--ff develop -m 'feat: the develop branch is merged into the master branch'
 
 
 
