@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="site-page" lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Практикуемся с Git</title>
 </head>
-<body>
-    <h1 class="title">Главная страница</h1>
+<body class="site-body">
+    <h1 class="title">Это заголовок первого уровня</h1>
 <<<<<<< HEAD
-    <p class="quote">Добавит изменения из удаленного репо</p>
+    <h2 class="">04-task-rebase</h2>
 =======
+    <p class="04-task-rebase"></p>
+>>>>>>> 73f1b1f (feat: add class with value 04-task-rebase for p element)
     <p class="description">Добавит изменения из удаленного репо</p>
->>>>>>> conflict/merge-r
     <a href ="#">Перейти на страницу о курсе</a>
 </body>
 </html>
