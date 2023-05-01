@@ -253,5 +253,11 @@ commit_3
 //после внесения правок в состоянии detached HEAD СОЗДАТЬ НОВУЮ ВЕТКУ!!!!!detached HEAD
 
 //сравнение изменений -  смотрит изменения а потом их сравнивает
-git diff
+git diff - покажет изменеия во всех файлах
+git diff <имя файла>
+git diff <commit_1> <commit_2> <file name>
 
+10975eb (HEAD -> master) feat: right for index
+git.txt
+index.html
+0a062c7 feat: reset
